@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4f2ea"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="Welcome to Music App !!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#273899"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="To Login please click the Next button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#877b7b"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Next" />
+
+
+</LinearLayout>
